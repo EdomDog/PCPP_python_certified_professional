@@ -78,9 +78,9 @@ class time_interval:
 fti=time_interval(21, 58, 50)    # 21:58:00
 sti=time_interval(1, 45, 22)     # 21:22:00  
 
-result1=(fti + sti)              # excpected result: 23:44:12
-result2=(fti - sti)              # excpected result: 20:13:28
-result3=(fti * 2)                # excpected result: 43:57:40
+result1=(fti + sti)              # expected result: 23:44:12
+result2=(fti - sti)              # expected result: 20:13:28
+result3=(fti * 2)                # expected result: 43:57:40
 
 print("result1:", result1)
 print("result2:", result2)
