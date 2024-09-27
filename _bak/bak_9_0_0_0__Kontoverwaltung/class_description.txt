@@ -1,0 +1,57 @@
+#----------------------
+Class: Kunden
+
+Attributes:
+   kundennummer :  Integer
+   nachname :      String
+   vorname :       String
+
+Methods:
+   __init__()
+   ausgabe()
+   get_nachname()
+   set_nachname()
+   get_vorname()
+   set_vorname()
+   prop_vorname()
+   prop_nachname()
+   add_konto()
+
+#----------------------
+Class: Konto
+
+Attributes:
+   kontonummer:    Integer
+   kontoinhaber:   Integer
+   kontostand :    Integer
+
+
+Methods:
+   __init__()
+   buchen()
+   set_kontoinhaber()
+   ausgabe()
+
+
+#---------------------
+Subclass: Sparkonto (inherits from Konto)
+
+Methods:
+   buchen()
+   ausgabe()
+
+
+#-------------------
+Subclass: Girokonto (inherits from Konto)
+
+Attributes:
+   kreditlimit: Integer
+
+Methods:
+   buchen()
+   ausgabe()
+
+
+
+
+
